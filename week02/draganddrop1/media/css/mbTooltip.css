@@ -1,0 +1,87 @@
+/*
+ * jquery.mb.components
+ * Copyright (c) 2001-2011. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
+ * email: mbicocchi@open-lab.com
+ * site: http://pupunzi.com
+ *
+ * Licences: MIT, GPL
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ */
+
+#tooltip{
+	width:auto;
+	max-width:344px;
+	min-width:344px;
+	min-height:99px;
+	background:#107Ba3;
+	padding:30px;
+	margin-top:4px;
+	font-size:16px;
+	z-index: 2000;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+#tooltip #ttimg.top{
+	margin-top:-20px;
+	margin-left:2px
+}
+#tooltip #ttimg.bottom{
+	bottom:0;
+	margin-bottom:-12px;
+	margin-left:2px
+}
+
+#tooltip.default{
+	color:#fff;
+	background:#7cb1bb;
+	border:#e9ae8a solid 8px;
+}
+#tooltip .tooltip_desc{
+	/*width:270px;*/
+}
+
+#tooltip .audio_btn{
+	float:right;
+	width:33px; 
+	height:32px; 
+	cursor:pointer;
+	background: url('../images/vocab_audio_n.png') no-repeat;
+}
+
+.ttstyle{
+	color:#107Ba3;
+	cursor:pointer;
+}
+
+.closebutton{
+	width:31px;
+	height:31px;
+	background:url(../images/popover_close_n.png) no-repeat scroll 0 0;
+	position: absolute;
+	cursor:pointer;
+	right:-5px;
+	top:-5px;
+}
+
+.closebutton:hover{
+	background:url(../images/popover_close_o.png) no-repeat scroll 0 0;
+}
+
+.toparrow{
+	width:31px;
+	height:18px;
+	background:url(../images/popover_arrow.png) no-repeat scroll 0 0;
+	position: absolute;
+	left:30px;
+	top:-7px;
+}
+
+.heading{
+    color: #ffffff;
+	display:block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+	font-weight:bold;
+    padding-bottom: 20px;
+}

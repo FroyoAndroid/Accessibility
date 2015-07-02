@@ -1,0 +1,7 @@
+body{margin:0px; padding:0px; overflow:hidden; font-family: Helvetica, Arial, sans-serif; font-size:16px;}
+#main_wrapper{width:974px; height:535px; padding:35px 20px 30px 30px; margin:0 auto;}
+.leftpart{width:599px; float:left;}
+.rightpart{ width:340px; float:right; padding-left:35px;}
+.subtitle{font-family: Helvetica, Arial, sans-serif; font-size:18px; color:#012d50; padding-bottom:15px; line-height:15px;}
+.text{font-family: Helvetica, Arial, sans-serif; font-size:16px; color:#000000; padding-bottom:15px; line-height:22px;}
+.Instruction_text{font-family: Helvetica, Arial, sans-serif; font-size:14px; color:#4b4b4b; padding-bottom:20px; font-style: italic;}

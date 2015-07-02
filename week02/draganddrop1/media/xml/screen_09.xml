@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Check Your Knowledge]]>
+	</display>
+	<display type="text">
+		<![CDATA[You may encounter more than one name for the planes of the body.]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Drag and drop each term on the right to the correct definition on the left.]]>
+	</display>
+    <display type="dragDrop">
+		<droppables>
+			<drop answer="2">
+				<![CDATA[frontal]]>
+			</drop>
+			<drop answer="0">
+				<![CDATA[sagittal]]>
+			</drop>
+			<drop answer="1">
+				<![CDATA[transverse]]>
+			</drop>
+			<!--<drop answer="0">
+				<![CDATA[Produces urine and sends it out of the body through the kidneys, ureters, bladder, and urethra]]>
+			</drop>
+			<drop answer="2">
+				<![CDATA[Breaks down food so that it can enter the bloodstream]]>
+			</drop>
+			<drop answer="4">
+				<![CDATA[option 4]]>
+			</drop>-->
+		</droppables>
+
+		<draggables>
+			<drag>
+				<![CDATA[lateral]]>
+			</drag>
+			<drag>
+				<![CDATA[axial]]>
+			</drag>
+			<drag>
+				<![CDATA[coronal]]>
+			</drag>
+			<!--<drag>
+				<![CDATA[Endocrine System]]>
+			</drag>
+			<drag>
+				<![CDATA[Nervous System]]>
+			</drag>
+			<drag>
+				<![CDATA[Immoral2]]>
+			</drag>-->
+    </draggables>
+
+		<feedback>
+			<correct icon="draganddrop1/media/images/dnd_correct.png">
+				<attempt_1>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the body systems correctly.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the body systems correctly.]]>
+					</description>
+				</attempt_2>
+			</correct>
+			<incorrect icon="draganddrop1/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the body systems correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</incorrect>
+			
+			<partial icon="draganddrop1/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite! ]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the body systems correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</partial>
+		</feedback>
+    </display>
+</content>

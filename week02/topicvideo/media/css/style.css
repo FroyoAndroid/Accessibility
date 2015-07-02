@@ -1,0 +1,8 @@
+body{margin:0px; padding:0px; overflow:hidden; font-family: Helvetica, Arial, sans-serif; font-size:16px;}
+#main_wrapper{width:964px; height:635px; padding:35px 30px 30px 30px; margin:0 auto;}
+.leftpart{width:604px; float:left;}
+.rightpart{ width:335px; float:right; padding-left:35px;}
+.subtitle{font-family: Helvetica, Arial, sans-serif; font-size:18px; color:#012d50; padding-bottom:15px; line-height:15px;}
+.text{font-family: Helvetica, Arial, sans-serif; font-size:16px; color:#000000; padding-bottom:15px; line-height:22px;}
+.Instruction_text{font-family: Helvetica, Arial, sans-serif; font-size:14px; font-style:italic; color:#4b4b4b; padding-bottom:20px;}
+.video_shadow{background:url(../images/topic_video.png) no-repeat scroll 0 0; width:660px; height:20px; position:relative; vertical-align:middle; margin:0px auto;}

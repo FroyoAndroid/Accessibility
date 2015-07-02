@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Check Your Knowledge]]>
+	</display>
+	<display type="text">
+		<![CDATA[]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Drag and drop the temperature assessment sites on the right to each statement given below.]]>
+	</display>
+  
+    <display type="dragDrop">
+		<droppables>
+			<drop answer="3">
+				<![CDATA[1]]>
+			</drop>
+			<drop answer="0">
+				<![CDATA[2]]>
+			</drop>
+			<drop answer="2">
+				<![CDATA[3]]>
+			</drop>
+			<drop answer="1">
+				<![CDATA[4]]>
+			</drop>
+			<drop answer="4">
+				<![CDATA[5]]>
+			</drop>
+			</droppables>
+		<draggables>
+			<drag>
+				<![CDATA[Abdominal cavity]]>
+			</drag>
+			<drag>
+				<![CDATA[Thoracic cavity]]>
+			</drag>
+			<drag>
+				<![CDATA[Pelvic cavity]]>
+			</drag>
+			<drag>
+				<![CDATA[Cranial cavity]]>
+			</drag>
+			<drag>
+				<![CDATA[Spinal cavity]]>
+			</drag>			
+			</draggables>
+		<feedback>
+			<correct icon="draganddrop2/media/images/dnd_correct.png">
+				<attempt_1>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have correctly matched the sites for measuring body temperature with the statements about the temperature measured at each site.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have correctly matched the sites for measuring body temperature with the statements about the temperature measured at each site.]]>
+					</description>
+				</attempt_2>
+			</correct>
+			<incorrect icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not correctly matched the sites for measuring body temperature with the statements about the temperature measured at each site.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</incorrect>
+			
+			<partial icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect! ]]>
+					</header>
+					<description>
+						<![CDATA[You have not correctly matched the sites for measuring body temperature with the statements about the temperature measured at each site.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</partial>
+		</feedback>
+    </display>
+</content>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Check Your Knowledge]]>
+	</display>
+	<display type="text">
+		<![CDATA[Knowing the three anatomical planes of the body will help you to describe the locations of parts or structures of the body.]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Please drag and drop the correct name for each plane of the body.]]>
+	</display>
+  
+    <display type="dragDrop">
+		<droppables>
+			<drop answer="2">
+				<![CDATA[1]]>
+			</drop>
+			<drop answer="0">
+				<![CDATA[2]]>
+			</drop>
+			<drop answer="1">
+				<![CDATA[3]]>
+			</drop>
+			<!--<drop answer="1">
+				<![CDATA[4]]>
+			</drop>
+			<drop answer="4">
+				<![CDATA[5]]>
+			</drop>-->	
+			</droppables>
+		<draggables>
+			<drag>
+				<![CDATA[Transverse]]>
+			</drag>
+			<drag>
+				<![CDATA[Sagittal]]>
+			</drag>
+			<drag>
+				<![CDATA[Frontal]]>
+			</drag>
+			<!--<drag>
+				<![CDATA[Cranial cavity]]>
+			</drag>
+			<drag>
+				<![CDATA[Spinal cavity]]>
+			</drag>	-->		
+			</draggables>
+		<feedback>
+			<correct icon="draganddrop2/media/images/dnd_correct.png">
+				<attempt_1>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the planes of the body correctly.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the planes of the body correctly.]]>
+					</description>
+				</attempt_2>
+			</correct>
+			<incorrect icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the planes of the body correctly.<br><br>The correct planes are:<br>1. Frontal<br>2. Sagittal<br>3. Transverse<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</incorrect>
+			
+			<partial icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect! ]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the planes of the body correctly.<br><br>The correct planes are:<br>1. Frontal<br>2. Sagittal<br>3. Transverse<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</partial>
+		</feedback>
+    </display>
+</content>

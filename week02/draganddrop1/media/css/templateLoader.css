@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    position: relative;
+    padding: 0px;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow:hidden;
+	font-family:Helvetica, Arial, sans-serif; 
+	font-size:16px;
+}
+
+#main_wrapper{width:964px; height:635px; padding:35px 30px 30px 30px; margin:0 auto; position:relative;}
+
+.subtitle{font-family: Helvetica, Arial, sans-serif; font-size:18px; color:#012d50; padding-bottom:15px; line-height:15px;}
+
+.text {font-family: Helvetica, Arial, sans-serif; font-size:16px; color:#000000; padding-bottom:15px; line-height:13px;}
+
+.Instruction_text{font-family: Helvetica, Arial, sans-serif; font-size:14px; color:#4b4b4b; padding-bottom:20px; font-style: italic;}
+
+ul
+{
+    padding-left: 22px;
+}
+
+.text_with_image_text_container
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.unique_container, .objective_container ,.discussion_container
+{
+    padding-left: 20px;
+    padding-right: 20px;
+	padding-bottom:20px;
+}
+
+#objective_bg_container
+{
+    background-color: #ffffff;
+}
+
+.submit_instruction_text
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-color: #1dc2eb;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

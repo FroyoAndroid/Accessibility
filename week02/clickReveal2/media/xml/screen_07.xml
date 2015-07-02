@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Planes of the Body]]>
+	</display>
+	<display type="text">
+		<![CDATA[The three anatomical planes of the body help to describe the locations of parts or structures of the body.]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Click each term to read more.]]>
+	</display>
+    <display type="clickReveal2">
+		<clickables>
+      <blocks id="1" top="10" left="10" height="25" width="115">
+        <btop><![CDATA[97]]></btop>
+        <bleft><![CDATA[79]]></bleft>
+        <text><![CDATA[Sagittal (lateral) plane]]></text>
+      </blocks>
+      <blocks id="2" top="10" left="10" height="25" width="115">
+        <btop><![CDATA[147]]></btop>
+        <bleft><![CDATA[79]]></bleft>
+        <text><![CDATA[Transverse (axial) plane]]></text>
+      </blocks>
+      <blocks id="3" top="10" left="10" height="25" width="115">
+        <btop><![CDATA[95]]></btop>
+        <bleft><![CDATA[551]]></bleft>
+        <text><![CDATA[Frontal (coronal) plane]]></text>
+      </blocks>
+    </clickables>
+		
+		<feedback>
+				<attempt>
+          <text1><![CDATA[Sagittal (lateral) plane]]></text1>
+          <description>
+						<![CDATA[<div style="float:left; width:60%;">The lateral, or <strong>sagittal,</strong> plane is a vertical plane that divides the body into right and left sides. The <strong>midsagittal plane</strong> divides the body vertically at the midline, creating right and left halves.</div><div style="float:right;"><img src="clickReveal2/media/images/w2_s07_i03.png"></div><div style="clear:both;"></div>]]>
+					</description>
+				</attempt>
+				<attempt>
+          <text1><![CDATA[Transverse (axial) plane]]></text1>
+					<description>
+						<![CDATA[<div style="float:left; width:60%;">The axial, or <strong>transverse</strong>, plane is a horizontal plane that divides the body or organ into upper and lower portions, as in a cross-section.</div><div style="float:right;"><img src="clickReveal2/media/images/w2_s07_i04.png"></div><div style="clear:both;"></div>]]>
+					</description>
+				</attempt>
+				<attempt>
+          <text1><![CDATA[Frontal (coronal) plane]]></text1>
+					<description>
+						<![CDATA[<div style="float:left; width:60%;">The frontal, or <strong>coronal</strong>, plane divides the body into front (<strong>anterior</strong>) and back (<strong>posterior</strong>) portions.</div><div style="float:right;"><img src="clickReveal2/media/images/w2_s07_i02.png"></div><div style="clear:both;"></div>]]>
+					</description>
+				</attempt>
+				
+			</feedback>
+    </display>
+</content>

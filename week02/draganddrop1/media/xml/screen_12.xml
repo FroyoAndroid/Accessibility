@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Check Your Knowledge]]>
+	</display>
+	<display type="text">
+		<![CDATA[Identify each of the combining forms below.]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Drag and drop each term on the right to the correct definition on the left.]]>
+	</display>
+    <display type="dragDrop">
+		<droppables>
+			<drop answer="3">
+				<![CDATA[skin, surface tissue]]>
+			</drop>
+			<drop answer="5">
+				<![CDATA[front]]>
+			</drop>
+			<drop answer="4">
+				<![CDATA[cartilage]]>
+			</drop>
+			<drop answer="0">
+				<![CDATA[loin or waist]]>
+			</drop>
+			<drop answer="1">
+				<![CDATA[side]]>
+			</drop>
+			<drop answer="2">
+				<![CDATA[neck]]>
+			</drop>
+		</droppables>
+
+		<draggables>
+			<drag>
+				<![CDATA[lumb/o]]>
+			</drag>
+			<drag>
+				<![CDATA[later/o]]>
+			</drag>
+			<drag>
+				<![CDATA[cervic/o]]>
+			</drag>
+			<drag>
+				<![CDATA[epitheli/o]]>
+			</drag>
+			<drag>
+				<![CDATA[chondr/o]]>
+			</drag>
+			<drag>
+				<![CDATA[anter/o]]>
+			</drag>
+    </draggables>
+
+		<feedback>
+			<correct icon="draganddrop1/media/images/dnd_correct.png">
+				<attempt_1>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the combining forms correctly.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the combining forms correctly.]]>
+					</description>
+				</attempt_2>
+			</correct>
+			<incorrect icon="draganddrop1/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the combining forms correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</incorrect>
+			
+			<partial icon="draganddrop1/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite! ]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the combining forms correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</partial>
+		</feedback>
+    </display>
+</content>

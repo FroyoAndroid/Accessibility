@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Check Your Knowledge]]>
+	</display>
+	<display type="text">
+		<![CDATA[The names of the five divisions of the spinal column are below.]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Please drag and drop the correct name to each division of the spinal column.]]>
+	</display>
+  
+    <display type="dragDrop">
+		<droppables>
+			<drop answer="2">
+				<![CDATA[1]]>
+			</drop>
+			<drop answer="3">
+				<![CDATA[2]]>
+			</drop>
+			<drop answer="0">
+				<![CDATA[3]]>
+			</drop>
+			<drop answer="4">
+				<![CDATA[4]]>
+			</drop>
+			<drop answer="1">
+				<![CDATA[5]]>
+			</drop>
+			</droppables>
+		<draggables>
+			<drag>
+				<![CDATA[Lumbar]]>
+			</drag>
+			<drag>
+				<![CDATA[Coccygeal]]>
+			</drag>
+			<drag>
+				<![CDATA[Cervical]]>
+			</drag>
+			<drag>
+				<![CDATA[Thoracic]]>
+			</drag>
+			<drag>
+				<![CDATA[Sacral]]>
+			</drag>			
+			</draggables>
+		<feedback>
+			<correct icon="draganddrop2/media/images/dnd_correct.png">
+				<attempt_1>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the divisions of the spinal column correctly.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's correct!]]>
+					</header>
+					<description>
+						<![CDATA[You have identified all the divisions of the spinal column correctly.]]>
+					</description>
+				</attempt_2>
+			</correct>
+			<incorrect icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect!]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the divisions of the spinal column correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</incorrect>
+			
+			<partial icon="draganddrop2/media/images/dnd_incorrect.png">
+				<attempt_1>
+					<header>
+						<![CDATA[Not quite!]]>
+					</header>
+					<description>
+						<![CDATA[Please try again.]]>
+					</description>
+				</attempt_1>
+				<attempt_2>
+					<header>
+						<![CDATA[That's incorrect! ]]>
+					</header>
+					<description>
+						<![CDATA[You have not identified the divisions of the spinal column correctly.<br><br><i>Close this pop-up and click <b>SHOW ANSWER</b> to view the correct answers.</i>]]>
+					</description>
+				</attempt_2>
+			</partial>
+		</feedback>
+    </display>
+</content>

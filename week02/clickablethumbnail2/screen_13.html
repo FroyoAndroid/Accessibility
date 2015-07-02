@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="clickablethumbnail2/media/css/colorbox.css" />
+	<link rel="stylesheet" href="clickablethumbnail2/media/css/style.css" />
+	<link rel="stylesheet" href="clickablethumbnail2/media/css/jquery.mCustomScrollbar.css" />
+	<link rel="stylesheet" href="clickablethumbnail2/media/css/mbTooltip.css"/>
+	<link rel="stylesheet" href="clickablethumbnail2/media/css/table.css"/>
+	<!--<script src="clickablethumbnail/media/js/jquery.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+	<script src="clickablethumbnail2/media/js/jquery.colorbox.js"></script>
+	<script>	
+		$(document).ready(function(){
+			//Examples of how to assign the Colorbox event to elements
+			$(".inline").colorbox({inline:true, width:"100%", height:"83%"});
+			
+			$('.test_close').click('cbox_closed',function(){
+                     $.colorbox.close();
+                }); 
+			
+			$(".inline").colorbox({
+				onComplete:function(){
+					$(".popup_content").mCustomScrollbar({
+							advanced:{
+								updateOnContentResize: true
+							}
+					});
+				}
+			});
+			
+			//$(document).ready(function(){
+				/*setTimeout(function(){
+					$(".popup_content").mCustomScrollbar();	
+				}, 1000)*/
+				
+			//});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+	<script type="text/javascript" src="clickablethumbnail2/media/js/mbTooltip.js"></script>
+	<script type="text/javascript" src="clickablethumbnail2/media/js/jquery.timers.js"></script>
+	<script>
+	  $(function(){
+		$("body").mbTooltip({ // also $([domElement]).mbTooltip  >>  in this case only children element are involved
+		  opacity : .97,       //opacity
+		  wait:1200,           //before show
+		  cssClass:"default",  // default = default
+		  timePerWord:70,      //time to show in milliseconds per word
+		  hasArrow:false,			// if you whant a little arrow on the corner
+		  hasShadow:true,
+		  imgPath:"media/images/",
+		  anchor:"mouse", //"parent"  you can anchor the tooltip to the mouse position or at the bottom of the element
+		  shadowColor:"black", //the color of the shadow
+		  mb_fade:200 //the time to fade-in
+		});
+	  });
+	</script>
+	
+
+	</head>
+
+  <body>
+    
+  <div id="main_wrapper">
+	<div class="subtitle">Musculoskeletal System</div>
+	<div class="text">The musculoskeletal system is the combination of bones, muscles, ligaments, and tendons that gives us the ability to move and provides support and stability.</div>
+		<div class="Instruction_text" style="margin-top:-10px;">Click the thumbnail to know more.</div>
+	<div class="image_wrapper">
+	
+		  <a class="inline" href="#inline_content1">
+			<div class="border">
+				<img src="clickablethumbnail2/media/images/w2_s13_i01.png" width="220" height="210">
+				<p class="title_text">The skeletal system</p>
+				<div class="shadow"></div>
+			</div>
+		  </a>
+          <a class="inline last" href="#inline_content2">
+			<div class="border">
+				<img src="clickablethumbnail2/media/images/w2_s13_i02.png" width="220" height="210">
+				<p class="title_text">The muscular system</p>
+				<div class="shadow"></div>
+			</div>
+		  </a>  	
+
+							
+			<!-- Popup box 1 content -->
+			<div style='display:none'>
+				<div id='inline_content1' style='padding:0px; background:#fff;'>
+				<div class="popup-title">The skeletal system <a href="javascript:void(0);" class="test_close"></a></div>
+				<div class="popup_content">					
+					<p class="text" style="padding-bottom:0px;">
+                    	<div class="text" style="text-align:center;padding-bottom:0px;">
+                            <img src="clickablethumbnail2/media/images/w2_s13_i01a.png" />
+                        </div>
+	                </p>
+				</div>
+				</div>
+			</div>
+            		
+			<!-- Popup box 2 content -->
+			<div style='display:none'>
+				<div id='inline_content2' style='padding:0px; background:#fff;'>
+				<div class="popup-title">The muscular system <a href="javascript:void(0);" class="test_close"></a></div>
+				<div class="popup_content">					
+					<p class="text" style="padding-bottom:0px;">
+                    	<div class="text" style="text-align:center;padding-bottom:0px;">
+                            <img src="clickablethumbnail2/media/images/w2_s13_i02a.png" />
+                        </div>
+	                </p>
+				</div>
+				</div>
+			</div>			
+			
+		</div>
+ </div>
+
+
+
+	
+	
+</body>
+</html>

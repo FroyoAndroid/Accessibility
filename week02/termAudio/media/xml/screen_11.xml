@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<display type="header_text">
+		<![CDATA[]]>
+	</display>
+	<display type="subtitle_text">
+		<![CDATA[Combining Forms]]>
+	</display>
+	<display type="text">
+		<![CDATA[Root words are joined with vowels to better combine with other parts of words. Together, these are<strong> </strong>called<strong> combining forms.</strong>]]>
+	</display>
+	<display type="instruction_text">
+		<![CDATA[Click a combined form to read its meaning.]]>
+	</display>
+    <display type="termAudio">
+		<clickables type ="9">
+      <blocks>
+        <term><![CDATA[<strong>ephitheli/o</strong>]]></term>
+        <description><![CDATA[<strong>ephitheli /o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">skin, surface tissue</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>cervic/o</strong>]]></term>
+        <description><![CDATA[<strong>cervic/o</strong><br/> <span style="padding-top:0px; margin-left: 0px;"><em>neck</em> of the body or <em>neck</em> (cervix) of the <br>uterus</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>lymph /o</strong>]]></term>
+        <description><![CDATA[<strong>lymph /o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">lymph (clear fluid in tissue spaces and lymph vessels)</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>laryng /o</strong>]]></term>
+        <description><![CDATA[<strong>laryng /o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">larynx (voice box)</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>later /o</strong>]]></term>
+        <description><![CDATA[<strong>later /o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">side</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>lumb /o</strong>]]></term>
+        <description><![CDATA[<strong>lumb /o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">loin or waist</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+
+      <blocks>
+        <term><![CDATA[<strong>pleur/o</strong>]]></term>
+        <description><![CDATA[<strong>pleur/o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">pleura (membrane surrounding the lungs)</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>sacr/o</strong>]]></term>
+        <description><![CDATA[<strong>sacr/o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">sacrum (five fused bones in the lower back)</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+      <blocks>
+        <term><![CDATA[<strong>thorac/o</strong>]]></term>
+        <description><![CDATA[<strong>thorac/o</strong><br/> <span style="padding-top:0px; margin-left: 0px;">chest</span>]]></description>
+        <audiodesc><![CDATA[termAudio/media/audio/sample.mp3]]></audiodesc>
+      </blocks>
+    </clickables>
+		
+		</display>
+</content>

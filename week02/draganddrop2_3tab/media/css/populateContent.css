@@ -1,0 +1,31 @@
+.populateContentTextWithImageWrapper
+{
+    position: relative;
+    font-family: helvetica;
+    font-size: 16px;
+}
+.populateContentTextWithImage_image
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.populateContentTextWithImage_text
+{
+    font-family: helvetica;
+    font-size: 16px;
+    color: #000000;
+}
+
+.populateContentText
+{
+    font-family: helvetica;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.populateContentImage
+{
+   margin-bottom: 20px;
+}

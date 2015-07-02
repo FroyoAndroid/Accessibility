@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+<title></title>
+<link href="topicvideo/media/css/style.css" rel="stylesheet">
+<link href="topicvideo/media/css/video-js.css" rel="stylesheet">
+<script src="topicvideo/media/js/video-js/video.js"></script>
+<!--<link href="topicvideo/media/js/video-js/video-js.css" rel="stylesheet">-->
+<!--<script src="topicvideo/media/js/jquery-1.9.1.js"></script>-->
+<!--<script src="js/action.js"></script>-->
+<script>
+   videojs.options.flash.swf = "introvideo/media/js/video-js/video-js.swf"
+
+   videojs("my_video_1").ready(function () {
+       var vid = this;
+       vid.on("ended", function () {
+
+           vid.posterImage.show(); //shows your poster image//
+           vid.pause();
+           vid.currentTime(0);
+           vid.controlBar.hide(); //hides your controls//
+           vid.bigPlayButton.show(); //shows your play button//
+           $(".vjs-big-play-button").addClass("replay-button"); //add replay button//
+
+           if (vid.currentTime == 0) {
+               $(".vjs-big-play-button").addClass("replay-button");
+               $('.vjs-control-bar').removeClass('vjs-lock-showing').removeClass('vjs-fade-out');
+           }
+       });
+       vid.on("play", function ()  //function to play the video again//
+       {
+           vid.posterImage.hide(); //hides your poster//
+           vid.controlBar.show(); //shows your controls//
+           vid.bigPlayButton.hide(); //hides your play button//
+       });
+
+   });
+			
+</script>
+</head>
+
+<body>
+<div id="main_wrapper">
+	<div class="subtitle">Bones of the Upper Body</div>
+	<div class="text">These are the terms for the major bones and groups of bones in the upper body.</div>
+	<div class="Instruction_text">Click the Play icon to view the video.</div>
+	<div class="banner">
+    <div class="banner_inner"> 
+	 	<!--<img style="position:absolute;" id="banner1" src="images/banner.jpg"  alt="">-->
+	  	<div id="videoHolder1" class="videoHolder">
+			<video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" poster="topicvideo/media/images/w2_s14_i01.jpg" width="640" height="400" data-setup='{"controls": true, "autoplay": false}'><!--poster="topicvideo/media/images/m01_s10_i01.jpg" -->
+				<source src="topicvideo/media/videos/w2_s14_v01.mp4" type='video/mp4'>
+		  	</video>
+		    <div class="video_shadow"></div>
+		  	<div class="clear"></div>
+	  	</div>
+		
+      	<div class="watch" id"watchv1"></div>
+	 
+      	<div class="clear"></div>
+	</div>
+  </div>
+
+</div>
+
+</body>
+</html>

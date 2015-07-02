@@ -1,0 +1,136 @@
+html,body,div,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,ol,ul,li,form,fieldset,legend,label,table,header,footer,nav,section,figure {
+	margin:0;
+	padding:0;
+	}
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+img{border:none;}
+
+#main_wrapper {
+	height: 530px;
+	padding: 35px 30px 20px;
+	width: 974px;
+}
+
+.subtitle {
+	color: #012d50;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+.text {
+	color: #000000;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 20px;
+}
+
+.image{
+	color: #000000;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 20px;
+}
+
+.video{
+	color: #000000;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 20px;
+}
+
+.Instruction_text {
+	color: #4b4b4b;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	padding-bottom: 20px;
+	font-style: italic;
+}
+
+
+a:link, a:visited{text-decoration:none;}
+h2{font-size:13px; margin:15px 0 0 0;}
+ul {type: disc; padding-left: 20px;}
+ul li{type: disc; padding-left: 10px;}
+
+
+
+.image_wrapper {
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 550px;
+}
+
+
+.image_wrapper a {
+	background: url("../images/ctz1_shadow.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 320px;
+	outline: 0 none;
+	width: 250px;
+	margin-right:50px;
+}
+
+.title_text {
+    background-color: #fddc76;
+    color: #000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: -4px;
+    padding-top: 20px;
+	display: block;
+    text-align: center;
+	vertical-align:middle;
+    width: 220px;
+}
+
+.border {
+    border: 15px solid #e47a5d;
+	position:relative;
+}
+
+
+.icon-image{ background:url(../images/ctz_magnify.png) no-repeat scroll 0 0; width:48px; height:48px; position:absolute; right:-14px; top:-14px;} 
+.icon-video{ background:url(../images/ctz_play.png) no-repeat scroll 0 0; width:48px; height:48px; position:absolute; right:-14px; top:-14px;} 
+.last {margin-right: 0px !important;}
+
+.popup-title {
+    background-color: #e47a5d;
+    color: #fff;
+    cursor: auto;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    padding: 15px 18px 0;
+    line-height: 18px;
+    text-align: left;
+    word-wrap: break-word;
+	margin-bottom:20px;
+}
+
+.popup_content{
+	font-family: Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 37px;
+    padding: 0px 15px 0px;
+	height:495px;
+}
