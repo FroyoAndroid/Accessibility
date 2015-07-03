@@ -69,8 +69,8 @@
                 }
             );
             $('#drop_element_'+i).keydown(function(event) {
-
-                if(event.which == 32) {
+                var keyCode = event.which || event.keyCode;
+                if(keyCode == 32) {
                     var css = $(this).attr('style');
                     draggedContainer.attr("style",css);
                     draggedContainer.attr('isdropped', "true");
@@ -94,8 +94,8 @@
 
                 console.log($(this));
                 var length =  $('.drag_element').length;
-                console.log(event.which);
-                if(event.which == 32){
+                var keyCode = event.which || event.keyCode;
+                if(keyCode == 32){
                     draggedContainer = $(this);
                     $('.drag_element').attr('tabindex',-1);
                     $('.drop_element').each(function(k,v){

@@ -21,6 +21,7 @@
 
     function init()
     {
+        alert('hello');
         totalDragElements=dragDropJsonObject.droppables[0].drop.length;
         addDragDropWrapper();
 		adddragDropQuestion_text();

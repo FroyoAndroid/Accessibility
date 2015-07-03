@@ -95,9 +95,6 @@
             $('#incorrect_icon_'+i).css({'right':'210px','top':iconElementYPosition});
             $('#partial_icon_'+i).css({'right':'210px','top':iconElementYPosition});
 
-
-
-
             $('#drop_text_container_'+i).css({'top':dropElementYPosition});
             $('#drop_element_'+i).css({'left':'477px','top':dropElementYPosition});
             $('#drag_element_bg_'+i).css({'right':'16px','top':dropElementYPosition});
