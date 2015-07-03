@@ -58,7 +58,7 @@
             dragDropWrapper.append($('<div>',attr));
 
             var attr_1 = {'class':'drop_element','id':'drop_element_'+i};
-            dragDropWrapper.append($('<div>',attr_1));
+            dragDropWrapper.append($('<a>',attr_1));
 
             $('#drop_element_'+i).droppable(
                 {
@@ -74,15 +74,18 @@
                     var css = $(this).attr('style');
                     draggedContainer.attr("style",css);
                     draggedContainer.attr('isdropped', "true");
+                    draggedContainer.css('z-index', 101);
+                    $(this).attr('draggedElement',draggedContainer.attr('id'));
                     $('.drop_element').attr('tabindex', -1);
                     $('.drag_element[isdropped="false"]').attr('tabindex', 0);
+                    calculateNoOfDroppedElements();
                 }
             });
             var attr_2 = {'class':'drag_element_bg','id':'drag_element_bg_'+i};
             dragDropWrapper.append($('<div>',attr_2));
 
             var attr_3 = {'class':'drag_element','tabIndex':0,'id':'drag_element_'+i,'html':'<span>'+dragDropJsonObject.draggables[0].drag[i].text+'</span>'};
-            dragDropWrapper.append($('<div>',attr_3));
+            dragDropWrapper.append($('<a>',attr_3));
             $('#drag_element_'+i).draggable(
                 {
                     start:startDragging,
@@ -98,10 +101,11 @@
                 if(keyCode == 32){
                     draggedContainer = $(this);
                     $('.drag_element').attr('tabindex',-1);
-                    $('.drop_element').each(function(k,v){
+                    $('.drop_element[draggedElement="null"]').attr('tabindex',0);
+                   /*$('.drop_element').each(function(k,v){
                         $(v).attr('tabindex',0);
-                    });
-                    $('.drop_element').eq(0).focus();
+                    });*/
+                    $('.drop_element[draggedElement="null"]').eq(0).focus();
                 }
             });
 
@@ -179,6 +183,28 @@
             validateAnswer();
             showHideFeedback();
         })
+
+        $('.submitBtn').keydown(function(event){
+            var keyCode = event.which || event.keyCode;
+            if(keyCode == 32){
+                $('.submitBtn').css({'display':'none'});
+                zIndexValue++;
+                $('.disable_patch').css({'display':'block',zIndex:zIndexValue});
+                noOfAttempts++;
+                if(noOfAttempts==1)
+                {
+                    $('#attempts_circle_0').css({'backgroundColor':'#6d694a'});
+                    //$('.tryBtn').css({'display':'block'})
+                }
+                else if(noOfAttempts==2)
+                {
+                    $('#attempts_circle_1').css({'backgroundColor':'#6d694a'});
+                    //$('.showBtn').css({'display':'block'})
+                }
+                validateAnswer();
+                showHideFeedback();
+            }
+        });
     }
 
     function addTryAgainBtn()
@@ -363,7 +389,9 @@
     {
         zIndexValue++;
         $('.feedback_wrapper').css({zIndex:zIndexValue});
+        $('.feedback_wrapper').focus();
         $('.feedback_wrapper').toggle({effect: "slide",'direction':'down'});
+        $('.drag_element[isdropped="false"]').attr('tabindex',0);
     }
 
 
@@ -384,7 +412,7 @@
 
     function stopDragging()
     {
-        $(this).css({'cursor':'pointer'})
+        $(this).css({'cursor':'pointer'});
         if(currentDragElement.attr('isDropped')=='false')
         {
             $(this).attr({'droppedElement':'null'});
@@ -421,6 +449,7 @@
 
     function calculateNoOfDroppedElements()
     {
+        //debugger;
         totalDroppedElements=0;
         for(var i=0;i<dragDropJsonObject.droppables[0].drop.length;i++)
         {
@@ -433,6 +462,8 @@
         if(totalDroppedElements==totalDragElements)
         {
             $('.submitBtn').css({'display':'block'});
+            $('.submitBtn').attr('tabindex',0);
+            $('.submitBtn').focus();
         }
         else
         {
